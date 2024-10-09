@@ -51,3 +51,9 @@ function polysIntersect(poly1, poly2) {
 
     return false;
 }
+
+function getRandomColor() {
+    const hue = 35 + Math.random() * 325;
+
+    return 'hsl('+ hue +', 100%, 60%)';
+}
